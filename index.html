@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="AyudaPlis.css" media="screen">    
 <link rel="stylesheet" href="style.css" media="screen">
 <link rel="Style" href="Boton.css">
+<link rel="stylesheet" href="apiStyles.css">
 
 
     <script class="u-script" type="text/javascript" src="Codigo.js" defer=""></script>
@@ -79,30 +80,37 @@
       </div></header>
     <section class="u-align-center u-clearfix u-grey-10 u-section-1" id="carousel_cc31">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">Bienvenido 
+        <h2 class="u-text u-text-default u-text-1" id="bienvenido"> 
                             <br>
                             <br>
                             <br>
                             <br>
         
-                            <div style="border-radius:20px; border: 1px solid black; padding: 60px;">
-                             Ayer
-                             <br>
-                             Hoy
-                             <br>
-                             Viernes
-                             <br>
-                             Sabado
-                             <br>
-                             Domingo
-                             <br>
-                             Lunes
-                             <br>
-                             Martes
-                             <br>
-                             Miercoles
-                             <br>
+                            <div id="mainContainer">
+                              <div style="border-radius:20px; border: 1px solid black; padding: 60px;" id="weekDays">
+                                Ayer
+                                <br>
+                                Hoy
+                                <br>
+                                Viernes
+                                <br>
+                                Sabado
+                                <br>
+                                Domingo
+                                <br>
+                                Lunes
+                                <br>
+                                Martes
+                                <br>
+                                Miercoles
+                                <br>
+                               </div>
+                               <div id="mainContent">
+
+                               </div>
                             </div>
+
+                            
 
 
 
@@ -161,5 +169,7 @@
     
 
     </section>
+
+    <script src="weatherAPI.js"></script>
   </body>
 </html>
