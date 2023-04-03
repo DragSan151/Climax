@@ -238,3 +238,34 @@ body{
       min-height: 364px;
     }
   }
+  .weather-app {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .weather-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .forecast {
+    margin-top: 20px;
+  }
+  
+  .day-forecast {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-icon {
+    width: 50px;
+  }
+  
+  .forecast-temperature {
+    font-weight: bold;
+  }
+  
+      
