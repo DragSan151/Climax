@@ -57,4 +57,19 @@ body {
 
     }
 
-    
+ #Zona_Area{
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+ }   
+
+ #Zona_Area h2{
+    margin-top: 0;
+ }
+
+ #Zona_Area p{
+    margin: 0;
+    font-size: 18px;
+ }
+
+ 
